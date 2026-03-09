@@ -1,5 +1,4 @@
 # GhostTrace
-# GhostTrace
 
 **GhostTrace** is a lightweight, stealthy input monitoring tool developed in Python. It is designed to demonstrate low-level system hooking, event-driven programming, and asynchronous data logging on Windows environments.
 
