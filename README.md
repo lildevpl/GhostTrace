@@ -15,6 +15,8 @@
 * **Data Integrity**: Implements `os.fsync()` and `flush()` to ensure logs are physically written to the disk, preventing data loss during unexpected system shutdowns.
 * **Built-in Easter Egg**: Includes a hidden identification protocol (Windows API `MessageBox`) triggered by a specific hardcoded sequence.
 
+
+
 ## 🛠️ Technical Stack
 
 * **Language**: Python 3.x
@@ -27,8 +29,38 @@
 * `session_config.dat`: The encrypted/obfuscated log file (generated at runtime).
 * `.gitignore`: Pre-configured to exclude sensitive logs and build artifacts.
 
+
+
 ## ⚙️ Setup & Deployment
 
 1. **Install dependencies**:
    ```bash
    pip install pynput
+Run in Standard Mode:
+
+Bash
+python main.py
+Compile to Standalone EXE (Stealth):
+To run GhostTrace on systems without Python installed:
+
+Bash
+pyinstaller --noconsole --onefile --name "WinSystemUpdate" main.py
+🔒 Security & Ethics
+This repository serves as a proof-of-concept for security auditing. By documenting how input monitors work, we can better understand how to defend against them and improve endpoint security.
+
+Developed by Simone Ethan Alapens Aspiring Cybersecurity Researcher
+
+
+---
+
+### Un ultimo tocco professionale:
+Quando carichi il progetto su GitHub, assicurati di aggiungere anche questi **Topics** (tag) nelle impostazioni del repository:
+* `python`
+* `cybersecurity`
+* `keylogger-educational`
+* `windows-api`
+* `stealth-monitoring`
+
+Questo aiuterà il tuo progetto a comparire nelle ricerche di altri appassionati di sicurezza informatica.
+
+**Vuoi che ti spieghi come creare una "Release" su GitHub per caricare anche il file .exe compilato, così il prof può scaricarlo direttamente senza toccare il codice?**
