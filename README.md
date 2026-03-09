@@ -50,17 +50,3 @@ This repository serves as a proof-of-concept for security auditing. By documenti
 
 Developed by Simone Ethan Alapens Aspiring Cybersecurity Researcher
 
-
----
-
-### Un ultimo tocco professionale:
-Quando carichi il progetto su GitHub, assicurati di aggiungere anche questi **Topics** (tag) nelle impostazioni del repository:
-* `python`
-* `cybersecurity`
-* `keylogger-educational`
-* `windows-api`
-* `stealth-monitoring`
-
-Questo aiuterà il tuo progetto a comparire nelle ricerche di altri appassionati di sicurezza informatica.
-
-**Vuoi che ti spieghi come creare una "Release" su GitHub per caricare anche il file .exe compilato, così il prof può scaricarlo direttamente senza toccare il codice?**
