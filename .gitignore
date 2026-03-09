@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# PyInstaller folders (EXE builds)
+build/
+dist/
+*.spec
+
+# Local Logs (Privacy!)
+*.dat
+*.txt
+*.log
+
+# Environments
+venv/
+.vscode/
