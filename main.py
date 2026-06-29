@@ -1,6 +1,6 @@
 """
 Project: GhostTrace (Educational Input Monitor)
-Author: Simone Ethan Alapens
+Author: LiL Dev
 Version: 1.0.5-STEALTH
 Description: A lightweight system hook for educational purposes.
 """
