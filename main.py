@@ -1,6 +1,6 @@
 """
 Project: GhostTrace (Educational Input Monitor)
-Author: LiL Dev
+Author: SEA
 Version: 1.0.5-STEALTH
 Description: A lightweight system hook for educational purposes.
 """
@@ -24,8 +24,8 @@ else:
 LOG_PATH = os.path.join(base_dir, "session_config.dat")
 
 # --- 2. SIGNATURE & EASTER EGG ---
-__author__ = "Simone Ethan Alapens"
-SECRET_SEQUENCE = "simoneethanalapens"
+__author__ = "SEA"
+SECRET_SEQUENCE = "lildevpl"
 recent_input = ""
 
 # --- 3. STORAGE LOGIC ---
